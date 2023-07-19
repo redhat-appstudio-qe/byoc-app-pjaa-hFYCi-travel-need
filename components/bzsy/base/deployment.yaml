@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: bzsy
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-hjhp-tenant/byoc-app-pjaa/bzsy@sha256:6b21621f95e9726654742353c4d969e269f4ebe617ea7e01debe76276ce08b73
         name: my-java-quarkus
         ports:
         - containerPort: 8081
